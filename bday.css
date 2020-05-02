@@ -1,0 +1,84 @@
+body {
+	margin: 0;
+	color: #CCCCCC;
+	background-color: #333333;
+	font-size: 12pt;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	padding: 5px;
+}
+
+header {
+	margin: 10px;
+	padding: 15px;
+}
+
+nav {
+	padding:5px;
+}
+
+img {
+	padding: 5px;
+	border: 1px solid #00CC00;
+}
+
+.container {
+	margin: 1% 10% 5% 10%;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 18% 18% 18% 18% 18%;
+	grid-gap: 20px;
+}
+
+.grid-item {
+  background-color: #333333;
+  border: 1px solid #00CC00;
+  font-size: 30px;
+  min-width: 200px;
+  min-height: 200px;
+  padding:5px;
+}
+
+.category {
+	font-size:20pt;
+}
+
+
+.myButton {
+	background-color: #333333;
+	border: 1px solid #00CC00;
+	padding: 10px;
+	cursor: pointer;
+	font-size: 20pt;
+	min-width: 100px;
+	max-width: 20%;
+	float: left;
+	margin-left: 45%;
+}
+
+#outputpaint {
+	font-size: 20pt;
+}
+
+#outputchar {
+	font-size:20pt;
+}
+
+#question1, #question2, #question3, #question4, #question5, #question6, #question7, #question8, #question9, #question10, #question11, #question12, #question13, #question14, #question15 {
+	font-size: 12pt;
+	cursor: pointer;
+}
+
+a {
+	color: #00CC00;
+}
+
+a:hover {
+	text-decoration: line-through;
+}
+
+a:visited {
+	color: #00CC00;
+}
