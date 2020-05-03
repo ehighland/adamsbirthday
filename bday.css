@@ -52,10 +52,6 @@ img {
 	padding: 10px;
 	cursor: pointer;
 	font-size: 20pt;
-	min-width: 100px;
-	max-width: 20%;
-	float: left;
-	margin-left: 45%;
 }
 
 #outputpaint {
